@@ -9,6 +9,10 @@
     <center>
         <h1>Name of the student is {{Name}}</h1>
         <h1>Age of the student is {{Age}}</h1>
+        
+        {% if Age > 18 %}
+            <h1>You are Matured</h1>
+        {% endif %}
     </center>
 </body>
 </html>

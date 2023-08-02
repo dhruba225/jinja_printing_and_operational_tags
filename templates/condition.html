@@ -7,7 +7,7 @@
 </head>
 <body>
     <center>
-    <h1><u>Simple if-else Condition</u></h1>
+    <!-- <h1><u>Simple if-else Condition</u></h1>
 
     {% if A > B %}
         <h1><i>Inside If Block</i></h1>
@@ -15,7 +15,21 @@
     {% else %}
         <h1><i>Inside else Block</i></h1>
         <h1>B is Greater</h1>
+    {% endif %} -->
+
+    <h1><u>if-elif-else Condidion</u></h1>
+     
+    {% if A > B and A > C %}
+        <h1><i>Inside if block</i></h1>
+        <h1>A is Greater</h1>    
+    {% elif B > C %}
+        <h1><i>Inside elif block</i></h1>
+        <h1>B is Greater</h1>     
+    {% else %}
+        <h1><i>Inside else block</i></h1>
+        <h1>C is Greater</h1>
     {% endif %}
+
     </center>
 
 </body>

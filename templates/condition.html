@@ -17,7 +17,7 @@
         <h1>B is Greater</h1>
     {% endif %} -->
 
-    <h1><u>if-elif-else Condidion</u></h1>
+    <!-- <h1><u>if-elif-else Condidion</u></h1>
      
     {% if A > B and A > C %}
         <h1><i>inside if block</i></h1>
@@ -28,6 +28,22 @@
     {% else %}
         <h1><i>inside else block</i></h1>
         <h1>C is Greater</h1>
+    {% endif %} -->
+
+    <h1><u>nested_if-else_condition</u></h1>
+
+    {% if A > B %}
+        {% if A > C %}
+        <h1>A is Greater</h1>
+        {% else %}
+        <h1>C is Greater</h1>
+        {% endif %}
+    {% else %}
+        {% if B > C %}
+        <h1>B is Greater</h1>
+        {% else %}
+        <h1>C is Greater</h1>
+        {% endif %}
     {% endif %}
 
     </center>

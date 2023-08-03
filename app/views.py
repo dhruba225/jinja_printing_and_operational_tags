@@ -6,5 +6,5 @@ def data_render(request):
     return render(request,'data_render.html',context=d)
 
 def condition(request):
-    dict={'A':10,'B':20,'C':15}
+    dict={'A':100,'B':20,'C':150}
     return render(request,'condition.html',context=dict)
